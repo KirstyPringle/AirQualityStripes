@@ -59,7 +59,7 @@ Workflow
    - Uses weighted model data for years before 2000.
    - Uses satellite data for years from 2001 onward.
   
-  3) Visualization:
+3) Visualization:
 
  - Generates time-series plots for each city in four different formats
  - Also generates plot comparing model and sattellite data (on Zenodo) for each city
