@@ -13,8 +13,9 @@ These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve
 
 **Code Summary (10/12/2024)**
 
-**List_of_Cities_Continent.txt **
+**List_of_Cities_Continent.txt**
 - Contains the list of cities and lat / lon for the cities considered in V1.6
+  
 
 **plotting_routines_cities.py**  
 - Python code that contains a number of plotting functions to produce the plots, all with a similar format.
@@ -26,6 +27,7 @@ These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve
     custom_cmap = colour scheme used (produced in Loop_Over_Cities.ipyn)
     plot_title = city and country name 
     continent = continent category
+
 
 
 **Loop_Over_Cities.ipynb**
