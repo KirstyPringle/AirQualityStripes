@@ -19,13 +19,56 @@ List_of_Cities_Continent.txt
 plotting_routines_cities.py  
 - Python code that contains a number of plotting functions to produce the plots, all with a similar format.
 
-e.g. plot_absolute_bar_plot(data_combined, years, custom_cmap, plot_title, continent) 
-
-data_combined = data to plot (produced in Loop_Over_Cities.ipyn)
-years = years to plot (x axis)
-custom_cmap = colour scheme used (produced in Loop_Over_Cities.ipyn)
-plot_title = city and country name 
-continent = continent category
+  e.g. plot_absolute_bar_plot(data_combined, years, custom_cmap, plot_title, continent) 
+  
+    data_combined = data to plot (produced in Loop_Over_Cities.ipyn)
+    years = years to plot (x axis)
+    custom_cmap = colour scheme used (produced in Loop_Over_Cities.ipyn)
+    plot_title = city and country name 
+    continent = continent category
 
 
 Loop_Over_Cities.ipyn
+
+Inputs
+NetCDF Files:
+  cmip_annual_mean_output.nc: Contains modeled PM2.5 concentrations.
+  vand_annual_mean_output.nc: Contains satellite-observed PM2.5 concentrations.
+
+City Metadata:
+  List_of_Cities_Continent.txt: A text file with metadata for each city, including:
+    Latitude (lat), Longitude (lon), Continent (continent)
+
+Workflow
+
+1) Load Datasets:
+  Reads NetCDF files for model and satellite data.
+  Loads city metadata into a dictionary.
+
+2) Process Each City:
+
+  For each city:
+  Interpolates model data (CMIP) to the city's latitude and longitude using linear interpolation.
+  Selects the nearest satellite data (VAND) for the city's location.
+  Averages model and satellite data over a specified time period (e.g., 2000–2002).
+
+  Calculates the ratio of satellite to model data and classifies uncertainty as:
+    Low Uncertainty (ratio < 2)
+    Moderate Uncertainty (2 ≤ ratio < 4)
+    High Uncertainty (ratio ≥ 4)
+
+  Combines model and satellite data into a single time series:
+    Uses weighted model data for years before 2000.
+    Uses satellite data for years from 2001 onward.
+  
+3) Visualization:
+
+  Generates time-series plots for each city in four different formats
+  Also generates plot comparing model and sattellite data (on Zenodo) for each city
+
+4) Output Generation:
+
+  Saves individual city plots as PNG files in the output directory.
+  Data_Cities_F1_V1pt6.xlsx: A wide-format dataset with annual PM2.5 values for all cities.
+  Cities_Data_Ratios.xlsx: Ratio of the  3 year mean satellitte to 3 year mean model value for each city.
+
