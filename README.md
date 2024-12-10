@@ -61,12 +61,12 @@ Workflow
   
 3) Visualization:
 
-  Generates time-series plots for each city in four different formats
-  Also generates plot comparing model and sattellite data (on Zenodo) for each city
+ - Generates time-series plots for each city in four different formats
+ - Also generates plot comparing model and sattellite data (on Zenodo) for each city
 
 4) Output Generation:
 
-  Saves individual city plots as PNG files in the output directory.
-  Data_Cities_F1_V1pt6.xlsx: A wide-format dataset with annual PM2.5 values for all cities.
-  Cities_Data_Ratios.xlsx: Ratio of the  3 year mean satellitte to 3 year mean model value for each city.
+ - Saves individual city plots as PNG files in the output directory.
+ - Data_Cities_F1_V1pt6.xlsx: A wide-format dataset with annual PM2.5 values for all cities.
+ - Cities_Data_Ratios.xlsx: Ratio of the  3 year mean satellitte to 3 year mean model value for each city.
 
