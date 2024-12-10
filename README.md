@@ -45,10 +45,10 @@ Workflow
 
 2) Process Each City:
 
-  For each city:
-  Interpolates model data (CMIP) to the city's latitude and longitude using linear interpolation.
-  Selects the nearest satellite data (VAND) for the city's location.
-  Averages model and satellite data over a specified time period (e.g., 2000–2002).
+  - For each city:
+  -- Interpolates model data (CMIP) to the city's latitude and longitude using linear interpolation.
+  -- Selects the nearest satellite data (VAND) for the city's location.
+  -- Averages model and satellite data over a specified time period (e.g., 2000–2002).
 
   Calculates the ratio of satellite to model data and classifies uncertainty as:
    - Low Uncertainty (ratio < 2)
