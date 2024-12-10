@@ -30,11 +30,9 @@ These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve
 
 **Loop_Over_Cities.ipynb**
 
-Inputs. NetCDF Files:
+Input files
  - cmip_annual_mean_output.nc: Contains modeled PM2.5 concentrations (1850-2014).
  - vand_annual_mean_output.nc: Contains satellite-observed PM2.5 concentrations (1998-2022).
-
-City Metadata:
  - List_of_Cities_Continent.txt: A text file with metadata for each city, including: Latitude (lat), Longitude (lon), Continent (continent)
 
 Workflow
