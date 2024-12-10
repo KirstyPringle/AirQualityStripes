@@ -28,22 +28,21 @@ plotting_routines_cities.py
     continent = continent category
 
 
-Loop_Over_Cities.ipyn
+Loop_Over_Cities.ipynb
 
 Inputs
 NetCDF Files:
-  cmip_annual_mean_output.nc: Contains modeled PM2.5 concentrations.
-  vand_annual_mean_output.nc: Contains satellite-observed PM2.5 concentrations.
+ - cmip_annual_mean_output.nc: Contains modeled PM2.5 concentrations.
+ - vand_annual_mean_output.nc: Contains satellite-observed PM2.5 concentrations.
 
 City Metadata:
-  List_of_Cities_Continent.txt: A text file with metadata for each city, including:
-    Latitude (lat), Longitude (lon), Continent (continent)
+ - List_of_Cities_Continent.txt: A text file with metadata for each city, including: Latitude (lat), Longitude (lon), Continent (continent)
 
 Workflow
 
 1) Load Datasets:
-  Reads NetCDF files for model and satellite data.
-  Loads city metadata into a dictionary.
+ - Reads NetCDF files for model and satellite data.
+ - Loads city metadata into a dictionary.
 
 2) Process Each City:
 
