@@ -22,11 +22,11 @@ These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve
 
   e.g. plot_absolute_bar_plot(data_combined, years, custom_cmap, plot_title, continent) 
   
-    data_combined = data to plot (produced in Loop_Over_Cities.ipyn)
-    years = years to plot (x axis)
-    custom_cmap = colour scheme used (produced in Loop_Over_Cities.ipyn)
-    plot_title = city and country name 
-    continent = continent category
+    - data_combined = data to plot (produced in Loop_Over_Cities.ipyn)
+    - years = years to plot (x axis)
+    - custom_cmap = colour scheme used (produced in Loop_Over_Cities.ipyn)
+    - plot_title = city and country name 
+    - continent = continent category
 
 
 
