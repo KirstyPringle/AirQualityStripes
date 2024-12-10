@@ -41,8 +41,8 @@ City Metadata:
 Workflow
 
 1) Load Datasets:
- - Reads NetCDF files for model and satellite data.
- - Loads city metadata into a dictionary.
+   - Reads NetCDF files for model and satellite data.
+   - Loads city metadata into a dictionary.
 
 2) Process Each City:
 
@@ -52,13 +52,13 @@ Workflow
   Averages model and satellite data over a specified time period (e.g., 2000–2002).
 
   Calculates the ratio of satellite to model data and classifies uncertainty as:
-    Low Uncertainty (ratio < 2)
-    Moderate Uncertainty (2 ≤ ratio < 4)
-    High Uncertainty (ratio ≥ 4)
+   - Low Uncertainty (ratio < 2)
+   - Moderate Uncertainty (2 ≤ ratio < 4)
+   - High Uncertainty (ratio ≥ 4)
 
   Combines model and satellite data into a single time series:
-    Uses weighted model data for years before 2000.
-    Uses satellite data for years from 2001 onward.
+   - Uses weighted model data for years before 2000.
+   - Uses satellite data for years from 2001 onward.
   
 3) Visualization:
 
