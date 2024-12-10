@@ -13,10 +13,10 @@ These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve
 
 **Code Summary (10/12/2024)**
 
-List_of_Cities_Continent.txt 
+**List_of_Cities_Continent.txt **
 - Contains the list of cities and lat / lon for the cities considered in V1.6
 
-plotting_routines_cities.py  
+**plotting_routines_cities.py**  
 - Python code that contains a number of plotting functions to produce the plots, all with a similar format.
 
   e.g. plot_absolute_bar_plot(data_combined, years, custom_cmap, plot_title, continent) 
@@ -28,12 +28,11 @@ plotting_routines_cities.py
     continent = continent category
 
 
-Loop_Over_Cities.ipynb
+**Loop_Over_Cities.ipynb**
 
-Inputs
-NetCDF Files:
- - cmip_annual_mean_output.nc: Contains modeled PM2.5 concentrations.
- - vand_annual_mean_output.nc: Contains satellite-observed PM2.5 concentrations.
+Inputs. NetCDF Files:
+ - cmip_annual_mean_output.nc: Contains modeled PM2.5 concentrations (1850-2014).
+ - vand_annual_mean_output.nc: Contains satellite-observed PM2.5 concentrations (1998-2022).
 
 City Metadata:
  - List_of_Cities_Continent.txt: A text file with metadata for each city, including: Latitude (lat), Longitude (lon), Continent (continent)
