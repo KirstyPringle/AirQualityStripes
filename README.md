@@ -49,12 +49,12 @@ Workflow
    - Selects the nearest satellite data (VAND) for the city's location.
    - Averages model and satellite data over a specified time period (e.g., 2000–2002).
 
-  Calculates the ratio of satellite to model data and classifies uncertainty as:
+   Calculates the ratio of satellite to model data and classifies uncertainty as:
    - Low Uncertainty (ratio < 2)
    - Moderate Uncertainty (2 ≤ ratio < 4)
    - High Uncertainty (ratio ≥ 4)
 
-  Combines model and satellite data into a single time series:
+   Combines model and satellite data into a single time series:
    - Uses weighted model data for years before 2000.
    - Uses satellite data for years from 2001 onward.
   
