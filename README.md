@@ -9,7 +9,7 @@ Any questions? Contact: airqualitystripes@gmail.com
 
 The project is a collaboration between the University of Edinburgh (EPCC), the University of Leeds (School of Earth and Environment), the Software Sustainability Institute, the UK Met Office and North Carolina State University.
 
-These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve Turnock, Carly Reddington, Meruyert Shayakhmetova, Malcolm Illingworth, Denis Barclay, Douglas Hamilton and Ethan Brain.
+These images were produced by: Kirsty Pringle, Jim McQuaid, Richard Rigby, Steve Turnock, Carly Reddington, Meruyert Shayakhmetova, Malcolm Illingworth, Denis Barclay, Ed Hawkins, Douglas Hamilton and Ethan Brain.
 
 **Code Summary (10/12/2024)**
 
